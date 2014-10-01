@@ -16,6 +16,7 @@ class ApplicationController < ActionController::Base
 
         if logged_in?
             @github.token = current_user.github_token
+        
         end
     end
 
